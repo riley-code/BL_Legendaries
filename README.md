@@ -18,6 +18,7 @@ SETUP
 HOW TO USE
 ==========
 1.Create a "throwaway" channel in your discord to search for items and receive their results. (further configuration can be made to only trigger the bot on a command type of basis, e.g. " /search , $search ".
+
 2.Once everything is up and running, now just type in any legendary item from Borderlands 3 that you come across, and the bot will return the description of the item's unique *red text*.
 
 Keep in mind this will query any messages you type anywhere in your server, that's why I reccomend creating a test server or only using in pesonal servers.
