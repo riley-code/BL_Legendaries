@@ -18,8 +18,7 @@ async def on_message(message):
     new_inp2 = inp.replace(" ", "_")
     new_inp3 = new_inp2.title()
 
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36 OPR/88.0.4412.85'}
-    url = f'https://borderlands.fandom.com/wiki/{new_inp3}'
+    headers = {'User-Agent': 'YOUR HEADERS HERE (SEE README){new_inp3}'
     r = requests.get(url, headers)
     soup = BeautifulSoup(r.content, 'html.parser')
     new_soup = soup.find('span', class_='text-flavor').parent
@@ -35,4 +34,4 @@ async def on_message(message):
 
         print(soup_pr)
 
-client.run('MTAwMjI4OTUxNDgwNDQxNjU0Mg.GGKeSw.5ZpcQBqZVIVhZoVC6946YhYea7FV508OuVVtLw')
+client.run('YOUR TOKEN HERE (SEE README)')
