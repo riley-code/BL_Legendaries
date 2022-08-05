@@ -1,5 +1,5 @@
 # BL_Legendaries
-A discord bot I made that scrapes the official wiki and give the meaning behind the red text on legendary borderlands items.
+A discord bot that scrapes the official wiki and give the meaning behind the red text on legendary borderlands items.
 
 HEADERS: If you decide to use this discord bot yourself, when importing the file replace the text seen with your User Agent. This can be found by searching google for "my user agent" and you can copy the string shown and replace the filler text in the actual file.
 
